@@ -8,8 +8,18 @@ body{
     background-color: #efeff2;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 60px;
+    h1{
+        font-size: 40px;
+        text-transform: capitalize;
+        font-weight: 700;
+        color: #323642;
+        margin: 0 10px;
+    }
 }
 .calculater{
     width: 320px;
@@ -87,5 +97,8 @@ button{
     .btns{
         grid-template-columns: 55px 55px 55px 55px;
         grid-template-rows: 55px 55px 55px 55px 55px;
+    }
+    h1{
+        font-size: 30px;
     }
 }

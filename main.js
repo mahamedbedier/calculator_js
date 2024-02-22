@@ -30,8 +30,11 @@ equal.addEventListener('click',function () {
 clear.addEventListener('click',function () {
         output.value = ''
 })
+clear[1].addEventListener('click',function () {
+    let value = output.value.substring(0, output.value.length - 1);
+    output.value = value;
 
-
+})
 
 
 

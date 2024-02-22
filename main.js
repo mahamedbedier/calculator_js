@@ -1,7 +1,7 @@
 let output = document.querySelector('.output');
 let btn = document.querySelectorAll('.btn');
 let equal = document.querySelector('.btn-green');
-let clear = document.querySelector('.btn-red');
+let clear = document.querySelectorAll('.btn-red');
 let yellow = document.querySelectorAll('.btn-yellow');
 
 

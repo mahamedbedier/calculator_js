@@ -84,6 +84,7 @@ button{
 }
 .btn-red{
     background-color: red;
+    grid-column: span 2;
 }
 .btn-red:hover{
     background-color: rgb(255, 44, 44);
